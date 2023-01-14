@@ -46,6 +46,8 @@
 
 (define-key evil-insert-state-map (kbd "C-c") 'evil-normal-state)
 
+;; (setq url-proxy-services '(("http" . "127.0.0.1:7890")))
+;; (setq url-proxy-services '(("https" . "127.0.0.1:7890")))
 
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
