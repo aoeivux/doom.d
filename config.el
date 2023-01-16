@@ -6,8 +6,8 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
-(setq user-full-name "John Doe"
-      user-mail-address "john@doe.com")
+(setq user-full-name "aoeivuxsy"
+      user-mail-address "aoeivuxsy.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
@@ -21,7 +21,7 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-(setq doom-font (font-spec :family "FiraCode Nerd Font" :size 12))
+(setq doom-font (font-spec :family "FiraCode Nerd Font" :size 14))
 
 ;; (setq doom-font (font-spec :family "FiraCode Nerd Font" :size 12 :weight 'semi-light)
      ;; doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
@@ -85,3 +85,5 @@
 (add-to-list  'load-path "~/.doom.d"  )
 (setq lsp-java-configuration-maven-user-settings (expand-file-name "/Users/nero/Enviroments/apache-maven-3.8.4/conf/settings.xml"))
 (setq lsp-java-format-settings-url               (expand-file-name "~/.doom.d/eclipse-codestyle.xml" ))
+;; initialize window size
+(setq initial-frame-alist '((top . 1) (left . 120) (width . 130) (height . 55)))
