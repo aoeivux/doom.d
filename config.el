@@ -82,3 +82,6 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+(add-to-list  'load-path "~/.doom.d"  )
+(setq lsp-java-configuration-maven-user-settings (expand-file-name "/Users/nero/Enviroments/apache-maven-3.8.4/conf/settings.xml"))
+(setq lsp-java-format-settings-url               (expand-file-name "~/.doom.d/eclipse-codestyle.xml" ))
